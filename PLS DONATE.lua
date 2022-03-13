@@ -4,7 +4,7 @@
 local StarterGui = game:GetService("StarterGui")
 local bindable = Instance.new("BindableFunction")
 
---[[
+
 --// Important Stuff \\--
 local DoubleScam = true -- One scam can be activated at a time, the Double Scam is for "Doubling" people robux, Rainbow stand
 local StreamScam = false -- Makes you pretend to be streaming, rainbow stand
@@ -12,7 +12,7 @@ local AutoSign = true -- If you have donation sign, this automatically equips it
 local AutoClaim = true -- Automatically claims and teleports you to a stand, doesnt always work idk why so i recommend autorj
 local NoLag = true -- Gets rid of lag
 local AutoRJ = true -- Automatically Rejoins a new server after time (MUST PUT SCRIPT IN AUTOEXECUTE IN ORDER TO WORK)
-]]--
+
 
 local function Claim()
       game.Workspace.Th1rust.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(41, 138, 84))
