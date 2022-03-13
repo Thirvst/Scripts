@@ -1405,7 +1405,7 @@ end
 function bindable.OnInvoke(response)
     print(response .. " chosen")
 end
-wait(15)
+--wait(15)
 StarterGui:SetCore("SendNotification", {
 	Title = "THIRUST | PLS DONATE",
 	Text = "5UCC3SSFU11Y 3X3CUTED",
