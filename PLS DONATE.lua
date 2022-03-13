@@ -1,15 +1,18 @@
 --// Made by Thirust uwu \\--
 --// This script has an antiafk built in, and yes I know I have way too many lines \\--
+
+--[[
 local StarterGui = game:GetService("StarterGui")
 local bindable = Instance.new("BindableFunction")
 
 --// Important Stuff \\--
-local DoubleScam = true -- One scam can be activated at a time, the Double Scam is for "Doubling" people robux
-local StreamScam = false -- Makes you pretend to be streaming
+local DoubleScam = true -- One scam can be activated at a time, the Double Scam is for "Doubling" people robux, Rainbow stand
+local StreamScam = false -- Makes you pretend to be streaming, rainbow stand
 local AutoSign = true -- If you have donation sign, this automatically equips it
-local AutoClaim = true -- Automatically claims and teleports you to a stand
+local AutoClaim = true -- Automatically claims and teleports you to a stand, doesnt always work idk why so i recommend autorj
 local NoLag = true -- Gets rid of lag
 local AutoRJ = true -- Automatically Rejoins a new server after time (MUST PUT SCRIPT IN AUTOEXECUTE IN ORDER TO WORK)
+]]--
 
 local function Claim()
       game.Workspace.Th1rust.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(41, 138, 84))
@@ -972,6 +975,7 @@ local function ClaimTwo()
     wait(1.21)
     spawn(twentyeight)    
 end
+--[[
 local function ValkStand()
     wait(.01)
  function msg(text)
@@ -980,14 +984,6 @@ local function ValkStand()
     local event = game:GetService("ReplicatedStorage").Events.EditBooth
     event:FireServer(A_1, A_2)
  end
- --[[Rainbow
- ff0808
- fc8403
- fcdb03
- 08ff08
- 03d7fc
- ec03fc
- ]]
     while true do
     print("uwu")
     msg("<stroke color='#000' thickness='5'><font color='#ff0808' face='GothamBlack' size='5'>SAVING FOR VIOLET VALK! <br /><font size='10'><stroke thickness='5'>R$5K/85K</stroke><font size='4'><br /><stroke thickness='3'>[its 85K bc of taxes]</stroke></font><br /><font color='#ff0808'><stroke thickness='6'>|--</stroke></font><font color='#FFF'>-------------------|</font></font></font></stroke>")
@@ -1016,6 +1012,7 @@ local function ValkStand()
     wait(.5)--p
     end
 end
+]]--
 local function BaitStand()
     wait(7)
  function msg(text)
@@ -1058,6 +1055,51 @@ local function BaitStand()
     msg("<stroke color='#000' thickness='10'><font color='#ec03fc' face='GothamBlack' size='15'>DOUBLING YOUR ROBUX!<font size='5'><br /><stroke thickness='5'>WHATEVER YOU DONATE, ILL GIVE BACK DOUBLE! R$299 OR MORE AND I'LL DO TRIPLE!</stroke></font></font></stroke>")
     wait(.5)--p
     msg("<stroke color='#000' thickness='10'><font color='#ec03fc' face='GothamBlack' size='15'>DOUBLING YOUR ROBUX!<font size='5'><br /><stroke thickness='5'>WHATEVER YOU DONATE, ILL GIVE BACK DOUBLE! R$299 OR MORE AND I'LL DO TRIPLE!</stroke></font></font></stroke>")
+    wait(.5)--p
+    end
+end
+local function StreamStand()
+    wait(7)
+ function msg(text)
+    local A_1 = text
+    local A_2 = "booth"
+    local event = game:GetService("ReplicatedStorage").Events.EditBooth
+    event:FireServer(A_1, A_2)
+ end
+ 
+ --[[Rainbow
+ ff0808
+ fc8403
+ fcdb03
+ 08ff08
+ 03d7fc
+ ec03fc
+ ]]
+    while true do
+    print("uwu")
+    msg("<stroke color='#000' thickness='10'><font color='#ff0808' face='GothamBlack' size='15'>SMILE!<font size='10'><br /><stroke thickness='5'>YOURE ON STREAM!</stroke></font></font></stroke>")
+    wait(.5) --red
+    msg("<stroke color='#000' thickness='10'><font color='#ff0808' face='GothamBlack' size='15'>SMILE!<font size='10'><br /><stroke thickness='5'>YOURE ON STREAM</stroke></font></font></stroke>")
+    wait(.5) --red
+    msg("<stroke color='#000' thickness='10'><font color='#fc8403' face='GothamBlack' size='15'>SMILE!<font size='10'><br /><stroke thickness='5'>YOURE ON STREAM</stroke></font></font></stroke>")
+    wait(.5) --o
+    msg("<stroke color='#000' thickness='10'><font color='#fc8403' face='GothamBlack' size='15'>SMILE!<font size='10'><br /><stroke thickness='5'>YOURE ON STREAM</stroke></font></font></stroke>")
+    wait(.5) --o
+    msg("<stroke color='#000' thickness='10'><font color='#fcdb03' face='GothamBlack' size='15'SMILE!<font size='10'><br /><stroke thickness='5'>YOURE ON STREAM</stroke></font></font></stroke>")
+    wait(.5)--y
+    msg("<stroke color='#000' thickness='10'><font color='#fcdb03' face='GothamBlack' size='15'>SMILE!<font size='10'><br /><stroke thickness='5'>YOURE ON STREAM</stroke></font></font></stroke>")
+    wait(.5)--y
+    msg("<stroke color='#000' thickness='10'><font color='#08ff08' face='GothamBlack' size='15'>SMILE!<font size='10'><br /><stroke thickness='5'>YOURE ON STREAM</stroke></font></font></stroke>")
+    wait(.5)--g
+    msg("<stroke color='#000' thickness='10'><font color='#08ff08' face='GothamBlack' size='15'>SMILE!<font size='10'><br /><stroke thickness='5'>YOURE ON STREAM</stroke></font></font></stroke>")
+    wait(.5)--g
+    msg("<stroke color='#000' thickness='10'><font color='#03d7fc' face='GothamBlack' size='15'>SMILE!<font size='10'><br /><stroke thickness='5'>YOURE ON STREAM</stroke></font></font></stroke>")
+    wait(.5)--b
+    msg("<stroke color='#000' thickness='10'><font color='#03d7fc' face='GothamBlack' size='15'>SMILE!<font size='10'><br /><stroke thickness='5'>YOURE ON STREAM</stroke></font></font></stroke>")
+    wait(.5)--b
+    msg("<stroke color='#000' thickness='10'><font color='#ec03fc' face='GothamBlack' size='15'>SMILE!<font size='10'><br /><stroke thickness='5'>YOURE ON STREAM</stroke></font></font></stroke>")
+    wait(.5)--p
+    msg("<stroke color='#000' thickness='10'><font color='#ec03fc' face='GothamBlack' size='15'>SMILE!<font size='10'><br /><stroke thickness='5'>YOURE ON STREAM</stroke></font></font></stroke>")
     wait(.5)--p
     end
 end
@@ -1382,7 +1424,7 @@ if DoubleScam == true then
 end
 if StreamScam == true then
     spawn(MessageLoop)
-    spawn(ValkStand)
+	spawn(StreamStand)
     if AutoRJ == true then
    	 spawn(RJStreamTimer)
     end
