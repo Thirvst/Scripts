@@ -1,4 +1,4 @@
---Loadstring:	loadstring(game:HttpGet(('https://github.com/Thirvst/Scripts/raw/main/PLS%20DONATE.lua'),true))()
+--Loadstring:	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Thirvst/Scripts/main/MY%20PLS%20DONATE.lua'),true))()
 --// Made by Thirust uwu \\--
 --// This script has an antiafk built in, and yes I know I have way too many lines \\--
 
