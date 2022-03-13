@@ -1,10 +1,10 @@
 --// Made by Thirust uwu \\--
 --// This script has an antiafk built in, and yes I know I have way too many lines \\--
 
---[[
 local StarterGui = game:GetService("StarterGui")
 local bindable = Instance.new("BindableFunction")
 
+--[[
 --// Important Stuff \\--
 local DoubleScam = true -- One scam can be activated at a time, the Double Scam is for "Doubling" people robux, Rainbow stand
 local StreamScam = false -- Makes you pretend to be streaming, rainbow stand
