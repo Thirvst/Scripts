@@ -1401,7 +1401,7 @@ end
 end
 end
 
-if game.PlaceId == 8737602449 then
+-- if game.PlaceId == 8737602449 then
 function bindable.OnInvoke(response)
     print(response .. " chosen")
 end
@@ -1452,7 +1452,7 @@ StarterGui:SetCore("SendNotification", {
 	Button1 = "deez",
 	Button2 = "nuts"
 })
-else
+--[[ else
     wait(15)
     StarterGui:SetCore("SendNotification", {
 	Title = "rawr x3 *pounces on you*",
