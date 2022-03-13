@@ -1,13 +1,15 @@
---// Made by Thirust uwu
-
+--// Made by Thirust uwu \\--
+--// This script has an antiafk built in, and yes I know I have way too many lines \\--
 local StarterGui = game:GetService("StarterGui")
 local bindable = Instance.new("BindableFunction")
 
-local DoubleScam = true
-local StreamScam = false
-local AutoSign = true
-local AutoClaim = true
-local NoLag = true
+--// Important Stuff \\--
+local DoubleScam = true -- One scam can be activated at a time, the Double Scam is for "Doubling" people robux
+local StreamScam = false -- Makes you pretend to be streaming
+local AutoSign = true -- If you have donation sign, this automatically equips it
+local AutoClaim = true -- Automatically claims and teleports you to a stand
+local NoLag = true -- Gets rid of lag
+local AutoRJ = true -- Automatically Rejoins a new server after time (MUST PUT SCRIPT IN AUTOEXECUTE IN ORDER TO WORK)
 
 local function Claim()
       game.Workspace.Th1rust.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(41, 138, 84))
@@ -1363,23 +1365,27 @@ function bindable.OnInvoke(response)
 end
 wait(15)
 StarterGui:SetCore("SendNotification", {
-	Title = "7HIRUS7 | PLS DONATE",
+	Title = "THIRUST | PLS DONATE",
 	Text = "5UCC3SSFU11Y 3X3CUTED",
 	Icon = "rbxassetid://6377120820",
 	Duration = inf,
 		Callback = bindable,
-	Button1 = "UwU",
-	Button2 = "OwO"
+	Button1 = "deez",
+	Button2 = "nuts"
 })
 if DoubleScam == true then
     spawn(BaitStand)
     spawn(BaitChat)
-    spawn(RJDoubleTimer)
+    if AutoRJ == true then
+    	spawn(RJDoubleTimer)
+    end
 end
 if StreamScam == true then
     spawn(MessageLoop)
     spawn(ValkStand)
-    spawn(RJStreamTimer)
+    if AutoRJ == true then
+   	 spawn(RJStreamTimer)
+    end
 end
 if AutoClaim == true then
    spawn(Claim)
@@ -1396,22 +1402,22 @@ if NoLag == true then
 end
 spawn(AntiAfk)
 StarterGui:SetCore("SendNotification", {
-	Title = "7HIRUS7 | PLS DONATE",
+	Title = "THIRUST | PLS DONATE",
 	Text = "4LL FUNCT10NS 3X3CUTED",
 	Icon = "rbxassetid://6377120820",
 	Duration = inf,
 		Callback = bindable,
-	Button1 = "UwU",
-	Button2 = "OwO"
+	Button1 = "deez",
+	Button2 = "nuts"
 })
 else
     wait(15)
     StarterGui:SetCore("SendNotification", {
-	Title = "cum inside of my ass uwu",
-	Text = "fuck me until my legs go numb",
-	Duration = inf,
+	Title = "rawr x3 *pounces on you*",
+	Text = "uwu youre so warm",
+	Duration = 30,
 		Callback = bindable,
-	Button1 = "UwU",
-	Button2 = "OwO"
+	Button1 = "nuzzles your",
+	Button2 = "necky wecky"
 })
 end
