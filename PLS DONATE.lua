@@ -1,3 +1,4 @@
+--Loadstring:	loadstring(game:HttpGet(('https://github.com/Thirvst/Scripts/raw/main/PLS%20DONATE.lua'),true))()
 --// Made by Thirust uwu \\--
 --// This script has an antiafk built in, and yes I know I have way too many lines \\--
 
@@ -1409,7 +1410,7 @@ wait(15)
 StarterGui:SetCore("SendNotification", {
 	Title = "THIRUST | PLS DONATE",
 	Text = "5UCC3SSFU11Y 3X3CUTED",
-	Icon = "rbxassetid://6377120820",
+--	Icon = "rbxassetid://6377120820",
 	Duration = inf,
 		Callback = bindable,
 	Button1 = "deez",
@@ -1446,7 +1447,7 @@ spawn(AntiAfk)
 StarterGui:SetCore("SendNotification", {
 	Title = "THIRUST | PLS DONATE",
 	Text = "4LL FUNCT10NS 3X3CUTED",
-	Icon = "rbxassetid://6377120820",
+--	Icon = "rbxassetid://6377120820",
 	Duration = inf,
 		Callback = bindable,
 	Button1 = "deez",
