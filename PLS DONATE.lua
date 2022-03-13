@@ -1412,9 +1412,7 @@ StarterGui:SetCore("SendNotification", {
 	Text = "5UCC3SSFU11Y 3X3CUTED",
 --	Icon = "rbxassetid://6377120820",
 	Duration = inf,
-		Callback = bindable,
-	Button1 = "deez",
-	Button2 = "nuts"
+	Callback = bindable,
 })
 if DoubleScam == true then
     spawn(BaitStand)
@@ -1449,9 +1447,7 @@ StarterGui:SetCore("SendNotification", {
 	Text = "4LL FUNCT10NS 3X3CUTED",
 --	Icon = "rbxassetid://6377120820",
 	Duration = inf,
-		Callback = bindable,
-	Button1 = "deez",
-	Button2 = "nuts"
+	Callback = bindable,
 })
 else
     wait(15)
@@ -1459,7 +1455,7 @@ else
 	Title = "rawr x3 *pounces on you*",
 	Text = "uwu youre so warm",
 	Duration = 30,
-		Callback = bindable,
+	Callback = bindable,
 	Button1 = "nuzzles your",
 	Button2 = "necky wecky"
 })
